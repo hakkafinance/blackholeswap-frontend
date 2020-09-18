@@ -1,0 +1,68 @@
+{
+  "name": "blackholeswap-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://alpha.blackholeswap.com",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@web3-react/core": "^6.1.1",
+    "@web3-react/injected-connector": "^6.0.7",
+    "@web3-react/network-connector": "^6.1.3",
+    "@web3-react/walletconnect-connector": "^6.1.4",
+    "bignumber.js": "^9.0.0",
+    "ethers": "^5.0.0-beta.191",
+    "history": "^5.0.0",
+    "polished": "^3.6.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-ga": "^3.1.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "react-transition-group": "^4.4.1",
+    "styled-components": "^5.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "npx eslint './src/**/*.{js,jsx}'",
+    "lint:fix": "npx eslint --fix './src/**/*.{js,jsx}'",
+    "format": "npx prettier --check 'src/**/*.{js,jsx,scss}'",
+    "format:fix": "npx prettier --write 'src/**/*.{js,jsx,scss}'"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "jsxSingleQuote": true
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1"
+  }
+}

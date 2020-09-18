@@ -1,0 +1,47 @@
+import { ethers } from 'ethers'
+
+export const daiAddress = '0x6B175474E89094C44Da98b954EedeAC495271d0F'
+export const usdcAddress = '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48'
+
+export const EXCHANGE_ADDRESSES = {
+  // 1: '0x11bafFebd829B490Cf077Ce7eF7700dd3cB1e534', // alpha
+  1: '0x35101c731b1548B5e48bb23F99eDBc2f5c341935', // beta
+  42: '0x642dB450ebD05960B3Ad4af366D236cb6c89A7Cd',
+}
+
+export const DAI_ADDRESSES = {
+  1: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
+  42: '0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa',
+}
+
+export const USDC_ADDRESSES = {
+  1: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
+  42: '0xb7a4F3E9097C08dA09517b5aB877F7a917224ede',
+}
+
+export const CDAI_ADDRESSES = {
+  1: '0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643',
+  42: '0xF0d0EB522cfa50B716B3b1604C4F0fA6f04376AD',
+}
+
+export const CUSDC_ADDRESSES = {
+  1: '0x39AA39c021dfbaE8faC545936693aC917d5E7563',
+  42: '0x4a92E71227D294F041BD82dd8f78591B75140d63',
+}
+
+export const COMPTROLLER_ADDRESSES = {
+  1: '0x3d9819210A31b4961b30EF54bE2aeD79B9c9Cd3B',
+  42: '0x5eAe89DC1C671724A672ff0630122ee834098657',
+}
+
+export const ORACLE_ADDRESSES = {
+  1: '0x9B8Eb8b3d6e2e0Db36F41455185FEF7049a35CaE',
+  42: '', // NOT EXISTED
+}
+
+export const GAS_MARGIN = ethers.BigNumber.from(1000)
+
+export const BLOCKS_PER_DAY = ethers.BigNumber.from(4 * 60 * 24)
+export const DAYS_PER_YEAR = ethers.BigNumber.from(365)
+
+export const NetworkContextName = 'NetworkContextName'
